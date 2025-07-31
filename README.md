@@ -1,30 +1,48 @@
 # OneProfile
 
-**Instantly build your professional portfolio from GitHub + LinkedIn,  in one click.**
+**Instantly build your professional portfolio from GitHub + LinkedIn — in one click.**
 
-OneProfile helps developers and tech professionals generate a clean, shareable portfolio by combining public GitHub data with your LinkedIn-style profile. Whether you're a hobbyist coder or a job seeker, OneProfile offers a simple way to showcase your skills, projects, and background with zero hassle.
+OneProfile helps developers and tech professionals generate a clean, shareable portfolio by combining public GitHub data with a LinkedIn-style profile. Whether you're a hobbyist or a job seeker, OneProfile gives you a no-fuss way to showcase your projects, skills, and background.
+
+> 🖼️ ![screenshot](index.png)
 
 ---
 
 ## 🔧 Features
 
 - 🖼️ **Auto-generated Portfolio**  
-  Enter your GitHub username and instantly generate a personal project showcase page.
+  Enter your GitHub/LinkedIn username to generate a personalized showcase.
 
 - 🧠 **Smart Project Listing**  
-  Projects are listed with:
-  - Title
-  - Description
-  - GitHub link
-  - Download stats (if available from external sources like CurseForge)
+  Projects include title, description, and GitHub links.
 
 - 💼 **Professional Snapshot**  
-  Displays your job title, GitHub handle, and tech skills.
+  Displays job title, GitHub handle, and skill tags.
 
 - 🧩 **Tech Tags**  
-  Recognizes and displays programming languages (e.g., Lua, Python).
+  Automatically detects languages and frameworks (e.g., Lua, Python).
 
 - 🔗 **Clean UI Design**  
-  Inspired by the simplicity of LinkedIn and the dev-focus of GitHub.
+  Inspired by LinkedIn’s simplicity and GitHub’s developer focus.
 
 ---
+
+## 🚀 Getting Started
+
+1. **Create a `.env` file in the root directory:** **[Generate Token](https://github.com/settings/tokens)
+   ```bash
+   GITHUB_TOKEN=your_personal_access_token
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Run the app:**
+Locate the folder and run Node:
+   ```bash
+   node server.js
+   ```
+4. For the frontend index.html use Live Server in VS Code or npx.
+   ```bash
+   npx serve
+   ```
