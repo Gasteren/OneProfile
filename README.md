@@ -1,6 +1,6 @@
 # OneProfile
 
-**Instantly build your professional portfolio from GitHub + LinkedIn, in one click.**
+**Instantly build your professional portfolio from GitHub in one click.**
 
 OneProfile helps developers and tech professionals generate a clean, shareable portfolio by combining public GitHub data with a LinkedIn-style profile. Whether you're a hobbyist or a job seeker, OneProfile gives you a no-fuss way to showcase your projects, skills, and background.
 
@@ -13,7 +13,7 @@ OneProfile helps developers and tech professionals generate a clean, shareable p
 ## 🔧 Features
 
 - 🖼️ **Auto-generated Portfolio**  
-  Enter your GitHub/LinkedIn username to generate a personalized showcase.
+  Enter your GitHub username to generate a personalized showcase.
 
 - 🧠 **Smart Project Listing**  
   Projects include title, description, and GitHub links.
